@@ -1,0 +1,41 @@
+{% extends 'mainmenu/base.html' %}
+
+{% block title %}Все о програмировании{% endblock %}
+
+
+{% block navMain %}
+    <a class="nav-link" href="/">Главная</a>
+{% endblock %}
+
+{% block navGames %}
+<a class="nav-link" aria-current="page" href="/about_games">Все о Играх</a>
+{% endblock %}
+
+{% block navProgramming %}
+<a class="nav-link active" href="/about_programming">Все о Програмировании</a>
+{% endblock %}
+
+{% block navMyWork %}
+<a class="nav-link" href="/my_work">Мои наработки</a>
+{% endblock %}
+
+
+{% block navmenu_2 %}
+<li class="nav-item">
+    <a class="nav-link" href="">Pyhton</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="">C / C++ / C#</a>
+
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="">Unity</a>
+</li>
+{% endblock %}
+
+{% block content %}
+<main>
+    <h1 class="display-1 text-center">Все о програмировании</h1>
+    <p>Просто Текст</p>
+</main>
+{% endblock %}
